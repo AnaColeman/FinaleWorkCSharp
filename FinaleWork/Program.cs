@@ -3,7 +3,7 @@
 
 Console.Clear();
 char[] elements = new char[10];
-string alfabet = "абвгдеёжзийклмнопрстуфхцчшщъыьэюя";
+string alfabet = "abcdefjhijklmnopqrstuwxyz";
 for (int i = 0; i < elements.Length; i++)
 {
     int number = new Random().Next(1, 33);
