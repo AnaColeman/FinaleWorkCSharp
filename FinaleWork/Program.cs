@@ -34,3 +34,18 @@ for (int i = 0; i < elements.Length; i++)
     }
 }
 System.Console.WriteLine();
+
+string[] String = new string[count];
+int j = 0;
+for (int i = 0; i < elements.Length; i++)
+{
+
+    bool mark = elements[i] >= '0' && elements[i] <= '9';
+    if (mark == false)
+    {
+
+        String[j] = Convert.ToString(elements[i]);
+        Console.Write(String[j] + ",");
+        j++;
+    }
+}
